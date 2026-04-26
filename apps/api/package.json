@@ -1,0 +1,19 @@
+{
+  "name": "@alt-lineages/api",
+  "private": true,
+  "type": "module",
+  "imports": {
+    "#lib/*": "./src/lib/*.ts"
+  },
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@gitbeaker/rest": "^43.8.0",
+    "infinibrowser": "^0.8.0"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3",
+    "wrangler": "catalog:"
+  }
+}

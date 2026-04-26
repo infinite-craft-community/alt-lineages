@@ -1,0 +1,14 @@
+{
+  "name": "@alt-lineages/userscript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "usts build",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "@violentmonkey/types": "^0.3.3",
+    "usts": "^0.1.0",
+    "wrangler": "catalog:"
+  }
+}

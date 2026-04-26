@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+
+  "name": "alt-lineages-userscript",
+
+  "compatibility_date": "2026-04-24",
+
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page",
+  },
+
+  "build": {
+    "command": "bun run build",
+    "cwd": ".",
+  },
+
+  "observability": { "logs": { "enabled": true } },
+}

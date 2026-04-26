@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+
+  "name": "alt-lineages",
+
+  "main": "src/index.ts",
+
+  "compatibility_date": "2026-04-24",
+
+  "observability": { "logs": { "enabled": true } },
+}
