@@ -3,10 +3,7 @@
   "workspaces": {
     "packages": [
       "apps/*"
-    ],
-    "catalog": {
-      "wrangler": "^4.85.0"
-    }
+    ]
   },
   "type": "module",
   "scripts": {
@@ -16,10 +13,10 @@
     "deploy": "bun run --filter './apps/**' deploy"
   },
   "devDependencies": {
-    "@gameroman/config": "^0.1.0",
-    "oxfmt": "^0.46.0",
-    "oxlint": "^1.61.0",
-    "oxlint-tsgolint": "^0.22.0",
-    "typescript": "^6.0.3"
+    "@gameroman/config": "0.2.5",
+    "oxfmt": "0.59.0",
+    "oxlint": "1.74.0",
+    "oxlint-tsgolint": "0.24.0",
+    "typescript": "7.0.2"
   }
 }

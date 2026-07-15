@@ -9,11 +9,11 @@
     "deploy": "wrangler deploy"
   },
   "dependencies": {
-    "@gitbeaker/rest": "^43.8.0",
-    "infinibrowser": "^0.8.0"
+    "@gitbeaker/rest": "43.8.0",
+    "infinibrowser": "0.9.1"
   },
   "devDependencies": {
-    "typescript": "^6.0.3",
-    "wrangler": "catalog:"
+    "typescript": "7.0.2",
+    "wrangler": "4.110.0"
   }
 }
