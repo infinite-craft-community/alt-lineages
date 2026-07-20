@@ -1,7 +1,4 @@
 {
   "extends": "@gameroman/config/ts",
-  "compilerOptions": {
-    "types": ["bun"]
-  },
   "include": ["**/src"]
 }
