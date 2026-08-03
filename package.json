@@ -13,7 +13,7 @@
     "deploy": "bun run --filter './apps/**' deploy"
   },
   "devDependencies": {
-    "@gameroman/config": "0.2.6",
+    "@gameroman/config": "0.2.8",
     "oxfmt": "0.61.0",
     "oxlint": "1.76.0",
     "oxlint-tsgolint": "7.0.2001",
