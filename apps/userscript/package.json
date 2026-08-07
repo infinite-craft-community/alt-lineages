@@ -9,6 +9,6 @@
   "devDependencies": {
     "@violentmonkey/types": "0.3.4",
     "usts": "0.1.1",
-    "wrangler": "4.118.0"
+    "wrangler": "4.119.0"
   }
 }
