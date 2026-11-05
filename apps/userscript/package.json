@@ -7,7 +7,7 @@
     "deploy": "wrangler deploy"
   },
   "devDependencies": {
-    "@violentmonkey/types": "0.3.4",
+    "@violentmonkey/types": "0.3.5",
     "usts": "0.1.1",
     "wrangler": "4.156.0"
   }
